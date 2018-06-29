@@ -1,0 +1,18 @@
+Spring Procedure for the web
+-------------------------------
+Creaet web project select spring framework.
+It will add the applicationcntext.xml and dispatcher-servlet.xml
+Creaet the spring-servlet.xml same as the dispatcher-servlet.xml modify prefix and suffix
+Modify web.xml for the servlet and servlet-mapping tag.
+Name for the servlet is given for ex. spring
+
+
+And calls the contro controller
+It then checks for the controller.
+Controller is the simple java class annotated with "@Controller" .
+It then calls the method based upon mapped url "@RequestMapping("Emp")"
+
+Create the index page
+Cretw anchor tag without file extension.
+anchor tag should match the above RequestMapping  
+
